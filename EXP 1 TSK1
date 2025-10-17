@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+printf("NAME -ARIBA SHAIKH\n");
+printf("AGE-18\n");
+printf("CLASS-COMPUTER ENGG\n");
+printf("DIV-D\n");
+printf("UIN-251P118 \n");
+return 0;
+}
