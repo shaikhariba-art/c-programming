@@ -1,0 +1,22 @@
+/*NAME-ARIBA SHAIKH
+UIN - 251P118
+CLASS-COMP 2
+DIV - D
+*/
+#include <stdio.h>
+int main() {
+int i, start, end, sum=0;
+printf("Enter lower limit: ");
+scanf("%d", &start);
+printf("Enter upper limit: ");
+scanf("%d", &end);
+if(start %2 == 0)
+{
+start ++;
+}
+for(int i=start; i<=end; i+=2)
+{
+ sum += i;
+}
+printf("Sum of odd numbers between %d. to %d= %d", start, end, sum); return 0;
+}
