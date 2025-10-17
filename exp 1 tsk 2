@@ -1,0 +1,18 @@
+/*NAME-ARIBA SHAIKH
+UIN - 251P118
+CLASS-COMP 2
+DIV - D
+*/
+#include <stdio.h>
+int main()
+{
+int P, C, M;
+printf("enter physics marks");
+scanf("%d",&P);
+printf("enter chemistry marks");
+scanf("%d",&C);
+printf("enter maths marks");
+scanf("%d",&M);
+(P+C+M %3 >= 50) ? printf("student is eligible"):printf("not eligible"); 
+return 0;
+}
