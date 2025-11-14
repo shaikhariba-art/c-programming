@@ -1,0 +1,22 @@
+#include <stdio.h>
+/* 
+NAME ARIBA SHAIKH 
+UIN 251P118
+DIV D COMPUTER 
+*/
+
+int main() {
+    char str[100];
+    int i = 0;
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    while (str[i] != '\0') {
+        i++;
+    }
+
+    printf("Length = %d", i);
+
+    return 0;
+}
