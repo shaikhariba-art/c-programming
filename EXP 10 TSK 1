@@ -1,0 +1,18 @@
+/*
+NAME:SHAIKH ARIBA
+DIV:C
+UIN:251P118
+ROLL NO:40
+*/
+#include <stdio.h>
+int main() {
+
+int a, b, *p, *q;
+printf("Enter first number: "); 
+printf("Enter second number: ");
+scanf("%d", &a);
+scanf("%d", &b);
+p = &a; q = &b;
+printf("Sum = %d", (*p + *q)); 
+return 0;
+}
