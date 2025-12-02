@@ -1,20 +1,16 @@
-/*
-NAME:SHAIKH ARIBA
-DIV:D
-UIN:251P118
-ROLL NO:40
-*/
+//Name :- Shaikh Ariba 
+//UIN :- 251P118
+//Roll No:- 40
+//Branch :- Comp Eng
+//Div:- D
 #include <stdio.h>
+
 int main() {
-int n; 
-printf("Enter size: "); 
-scanf("%d", &n);
-int a[n]; 
-for(int i=0;i<n;i++)
-scanf("%d", &a[i]);
-int *p = a + n - 1;
-printf("Reverse: ");
-for(int i=0;i<n;i++)
-printf("%d ", *(p - i));
-return 0;
+    int array[] = {10, 20, 30, 40, 50};
+    int n = sizeof(array) / sizeof(array[0]);
+    int *p = array;
+    for(int i = n - 1; i >= 0; i--) {
+        printf("%d ", *(p + i));
+    }
+    return 0;
 }
